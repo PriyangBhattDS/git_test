@@ -7,6 +7,9 @@ def sub(x,y):
 def mod(x,y):
     return x%y
 
+def div(x,y):
+    return x/y if y!=0 else "can't divide by zero"
+
 
 if __name__ == "__main__":
     print(add(10,20))
